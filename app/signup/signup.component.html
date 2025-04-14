@@ -1,0 +1,25 @@
+<div class="carousel-inner">
+    <div class="carousel-item active">
+       <img src="https://static.vecteezy.com/system/resources/previews/000/702/086/original/shopping-online-on-website-vector.jpg" class="d-block w-100"  alt="Sunset Over the City">
+       <div class="carousel-caption d-none d-md-block">
+         
+       </div>
+     </div>
+   </div>
+<div class="container">
+
+    <form met hod="post" action="home" enctype="multipart/form-data"class="mt-3">
+        <h1> sign up</h1>
+        <input type="text" placeholder="name" class="name" name="name" minlength="10" maxlength="50" required>
+        <input type="email" class="email" placeholder="email" name="email" required>
+        <input type="password" class="password" placeholder="Password" name="password" required>
+        <input type="number" placeholder="age" class="age" name="age" min="20" max="60" required>
+        <label id="gender">Gender : 
+            <label id="gender" for="M">Mail</label>
+            <input id="gender" type="radio" class="M my-2 mx-2" name="Gender" value="Male">
+            <label id="gender" for="F">Female</label>
+            <input id="gender" type="radio" class="F" name="Gender" value="Female">
+        </label>
+        <button type="submit" class="submit" (click)="login()" > Sign in</button>
+</form>
+</div>

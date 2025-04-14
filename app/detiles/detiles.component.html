@@ -1,0 +1,101 @@
+<div class="container">
+    <div class="card card1">
+        <div class="card-body">
+            <h3 class="card-title">{{product.title}}</h3>
+            <h6 class="card-subtitle">{{product.category}}</h6>
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-6">
+                    <div class="white-box text-center"><img id="img1" src="{{product.image}}"
+                            class="img-responsive"></div>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-6">
+                    <h4 class="box-title mt-5">Product description</h4>
+                    <p>{{product.description}}</p>
+                    <div class="product_meta">
+                        <br>
+                        <br>
+                        <span class="tagged_as"><strong>Rate:</strong> {{product.rating.rate}}</span>
+                    </div>
+                    <h2 class="mt-5">
+                    <strong>Price:</strong>  {{product.price | currency:'$'}}<small class="text-success">(46%off)</small>
+                    </h2>
+                    <div class="form-group">
+                        <h3 class="mt-5">
+                            <span class="tagged_as"><strong>Quantity:</strong> {{product.rating.count}}</span>
+                        </h3>
+                        <input type="quantiy" placeholder="1" class="form-control quantity">
+                    </div>
+                    <p>
+                        <button class="btn btn-round btn-danger" type="button"><i class="fa fa-shopping-cart"></i> Add
+                            to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--<div class="container ">
+    <div id="laptoplist" class="row g-3">
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+        <div id="item" class="card mt-3">
+            <img class="card-img-top a" style="height: 350px;" src="https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg" alt="">
+            <div class="card-body mt-3">
+                <h5 style="height: 50px;" class="card-title text-center">DANVOUY Womens</h5>
+                <p style="height: 50px;" class="card-text">
+                    95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The
+                    fabric </p>
+                <div class="col ml-2 text-end">
+                    <button style="height:36px ; margin-top: 51px;" type="button" class="btn btn-outline-primary me-2">Add to cart</button>
+                    <button style="height:36px ; margin-top: 51px;" type="button" class="btn btn-primary" routerLink="/details/20">Details</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+        <div id="item" class="card mt-3">
+            <img class="card-img-top a" style="height: 350px;" src="https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg" alt="">
+            <div class="card-body mt-3">
+                <h5 style="height: 50px;" class="card-title text-center">White Gold Plated</h5>
+                <p style="height: 50px;" class="card-text">
+                    Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your
+                    love </p>
+                <div class="col ml-2 text-end">
+                    <button style="height:36px ; margin-top: 51px;" type="button" class="btn btn-outline-primary me-2">Add to cart</button>
+                    <button style="height:36px ; margin-top: 51px;" type="button" class="btn btn-primary" routerLink="/details/7">Details</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+        <div id="item" class="card mt-3">
+            <img class="card-img-top a" style="height: 350px;" src="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+                alt="">
+            <div class="card-body mt-3">
+                <h5 style="height: 50px;" class="card-title text-center">Mens Casual</h5>
+                <p style="height: 50px;" class="card-text">
+                    Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight &
+                    soft fabric </p>
+                <div class="col ml-2 text-end">
+                    <button style="height:36px ; margin-top: 51px;" type="button" class="btn btn-outline-primary me-2">Add to cart</button>
+                    <button style="height:36px ; margin-top: 51px;" type="button" class="btn btn-primary" routerLink="/details/2">Details</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+        <div id="item" class="card mt-3">
+            <img class="card-img-top a" style="height: 350px;" src="https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg" alt="">
+            <div class="card-body mt-3">
+                <h5 style="height: 50px;" class="card-title text-center">Samsung</h5>
+                <p style="height: 50px;" class="card-text">
+                    49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side
+                </p>
+                <div class="col ml-2 text-end">
+                    <button style="height:36px ; margin-top: 51px;" type="button" class="btn btn-outline-primary me-2">Add to cart</button>
+                    <button style="height:36px ; margin-top: 51px;" type="button" class="btn btn-primary" routerLink="/details/14">Details</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>-->

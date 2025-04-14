@@ -1,0 +1,17 @@
+p,h5{
+    height: 50px;
+}
+img{
+    height: 220px;
+    width:250px;
+}
+button{
+    height:36px ;
+    margin-top: 51px;
+    background-color: steelblue;
+	color: beige;
+    border-color: steelblue;
+}
+img:hover {
+    transform: scale(1.04);
+}

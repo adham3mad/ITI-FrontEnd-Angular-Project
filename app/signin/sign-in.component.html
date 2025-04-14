@@ -1,0 +1,19 @@
+<div class="carousel-inner">
+ <div class="carousel-item active">
+    <img src="https://fakestoreapi.com/icons/intro.svg" class="d-block w-100"  alt="Sunset Over the City">
+    <div class="carousel-caption d-none d-md-block">
+      
+    </div>
+  </div>
+</div>
+<div class="container">
+
+  <form method="post" action="home" enctype="multipart/form-data">
+      <h1>Sign in </h1>
+      <input type="text" class="username" placeholder="User name" name="name" required>
+
+      <input type="password" class="password" placeholder="Password" name="password" required>
+      <button type="submit" class="submit" (click)="login()" > Sign in</button>
+      <span>Don't have an account?</span><a href="sign-up">Sign up</a>
+  </form>
+</div>

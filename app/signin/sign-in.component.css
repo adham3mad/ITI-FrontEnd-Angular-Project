@@ -1,0 +1,48 @@
+.container {
+    width: 455px;
+    height: 327px;
+    background-color: white;
+    position:absolute;
+    top :207px;
+    right: 154px;
+    box-shadow: 7px 9px 36px;
+    border-radius: 20px;
+}
+
+form {
+    margin-top: 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+body {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.username,
+.password {
+    border-radius: 20px;
+    width: 196px;
+    height: 29px;
+}
+
+.submit {
+    background: #016ABC;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 104px;
+    height: 38px;
+}
+img{
+    height: 700px;
+}

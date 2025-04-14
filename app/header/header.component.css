@@ -1,0 +1,10 @@
+header{
+    background-color: rgb(194, 230, 241);
+}
+
+button{
+    background-color: steelblue;
+    color:bisque;
+    border-color: steelblue;
+    margin: 2px;
+}

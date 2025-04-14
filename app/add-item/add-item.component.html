@@ -1,0 +1,30 @@
+<div class="container mt-5">
+    <div *ngIf="isSubmitted" class="alert alert-succes ">
+        Submitted Successfully
+    </div>
+    <form [formGroup]="registerForm" (ngSubmit)="save()" novalidate>
+    <div class="mb-3">
+        <label for="title" class="form-label">Titel</label>
+        <input type="text" class="form-control" id="title" placeholder="Title" formControlName="title">
+    </div>
+    <div class="mb-3">
+        <label for="price" class="form-label">Price</label>
+        <input type="text" class="form-control" id="price" placeholder="Price" formControlName="price">
+    </div>
+    <div class="mb-3">
+        <label for="description" class="form-label">Description</label>
+        <textarea class="form-control" id="description" rows="3" formControlName="description"></textarea>
+    </div>
+    <div class="mb-3">
+        <label for="image" class="form-label">Image URL</label>
+        <input type="text" class="form-control" id="image" placeholder="Image" formControlName="image">
+    </div>
+    <div class="mb-3">
+        <label for="category" class="form-label">Category</label>
+        <input type="text" class="form-control" id="price" placeholder="category" formControlName="category">
+    </div>
+    <div class="col-auto">
+        <button [disabled]="!registerForm.valid" type="submit" class="btn btn-primary mb-3">Add Product</button>
+    </div>
+</form>
+</div>
